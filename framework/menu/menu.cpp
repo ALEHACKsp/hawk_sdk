@@ -59,7 +59,6 @@ void setup::draw()
 							menu::slider("XQZ Opacity", &vars.players.model_xqz_alpha, 255);
 
 						menu::combobox("Material", {"Textured", "Flat"}, &vars.players.mdl);
-
 					}
 					break;
 			case 2: /* movement */
